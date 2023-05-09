@@ -1,3 +1,4 @@
+// untuk awal project
 git init
 
 git config --global user.email "you@example.com"
@@ -14,3 +15,14 @@ git add .
 git commit -m "first commit"
 
 git push -u origin main
+
+//jika ingin collab
+git clone 
+
+//buat branch baru
+git branch revisi_apa
+git checkout revisi_apa
+
+git add .
+git commit -m "update"
+git push -u origin revisi_apa
